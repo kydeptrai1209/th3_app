@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/README.md">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/README.md" />
+              <option name="updatedContent" value="# Ứng dụng Android - 8 Bài Tập Thực Hành&#10;&#10;Đây là project Android bao gồm 8 bài tập thực hành về các tính năng cơ bản trong phát triển ứng dụng Android.&#10;&#10;## Danh sách các bài tập&#10;&#10;### Bài 1 - Danh sách sinh viên&#10;- Hiển thị danh sách 20 sinh viên với FlatList/RecyclerView&#10;- Mỗi item hiển thị: tên, tuổi, lớp&#10;- Nhấn vào item để hiển thị Alert với tên sinh viên&#10;&#10;### Bài 2 - Form đăng nhập&#10;- Form với 2 ô nhập: Username và Password&#10;- Nút &quot;Login&quot; với validation&#10;- Hiển thị lỗi nếu bỏ trống&#10;- Hiển thị popup &quot;Đăng nhập thành công&quot; nếu hợp lệ&#10;&#10;### Bài 3 - Đồng hồ đếm ngược&#10;- Nhập số giây cần đếm&#10;- Nút Start để bắt đầu đếm ngược&#10;- Hiển thị &quot;Time's up&quot; và rung điện thoại khi hết giờ&#10;&#10;### Bài 4 - Ứng dụng To-Do&#10;- Thêm công việc mới&#10;- Đánh dấu hoàn thành&#10;- Sửa tên công việc&#10;- Xóa công việc&#10;- Lưu trữ dữ liệu với AsyncStorage&#10;&#10;### Bài 5 - Ứng dụng xem hình ảnh&#10;- Hiển thị grid 3 cột các ảnh từ URL&#10;- Nhấn ảnh để mở modal full-screen&#10;- Vuốt sang trái/phải để đổi ảnh&#10;&#10;### Bài 6 - Gọi API thời tiết&#10;- Nhập tên thành phố để tìm kiếm&#10;- Fetch API Open-Meteo (miễn phí, không cần API key)&#10;- Hiển thị: nhiệt độ, độ ẩm, mô tả thời tiết&#10;- Có trạng thái loading và xử lý lỗi&#10;&#10;### Bài 7 - App 3 tab với Navigation&#10;- BottomNavigationView với 3 tab: Home, News, Profile&#10;- Mỗi tab là một Fragment riêng&#10;- Tab Home: nhấn item để mở chi tiết, truyền tham số&#10;&#10;### Bài 8 - Hiển thị danh sách bài viết&#10;- Lấy danh sách bài viết từ JSONPlaceholder API&#10;- Hiển thị dưới dạng RecyclerView&#10;- Tính năng: Load more (phân trang), Pull to refresh, Tìm kiếm&#10;&#10;## Công nghệ sử dụng&#10;&#10;- **Language:** Java&#10;- **Min SDK:** 24 (Android 7.0)&#10;- **Target SDK:** 36&#10;- **Libraries:**&#10;  - AndroidX (AppCompat, RecyclerView, ViewPager2, Navigation)&#10;  - OkHttp - HTTP client&#10;  - Gson - JSON parser&#10;  - Glide - Image loading&#10;  - SwipeRefreshLayout - Pull to refresh&#10;&#10;## Cài đặt&#10;&#10;1. Clone repository:&#10;```bash&#10;git clone https://github.com/kydeptrai1209/th3_app.git&#10;```&#10;&#10;2. Mở project trong Android Studio&#10;&#10;3. Sync Gradle và build project:&#10;```&#10;Build → Rebuild Project&#10;```&#10;&#10;4. Chạy trên emulator hoặc thiết bị thật&#10;&#10;## Yêu cầu hệ thống&#10;&#10;- Android Studio Arctic Fox trở lên&#10;- JDK 11 trở lên&#10;- Android SDK 24+&#10;&#10;## Tác giả&#10;&#10;Phát triển bởi: [kydeptrai1209](https://github.com/kydeptrai1209)&#10;&#10;## License&#10;&#10;MIT License&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

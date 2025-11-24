@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Th3_ript"
+        android:usesCleartextTraffic="true">
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Bài 1: Student List -->
+        <activity
+            android:name=".bai1.StudentListActivity"
+            android:exported="false"
+            android:label="Bài 1 - Danh sách sinh viên" />
+
+        <!-- Bài 2: Login -->
+        <activity
+            android:name=".bai2.LoginActivity"
+            android:exported="false"
+            android:label="Bài 2 - Form đăng nhập" />
+
+        <!-- Bài 3: Countdown -->
+        <activity
+            android:name=".bai3.CountdownActivity"
+            android:exported="false"
+            android:label="Bài 3 - Đồng hồ đếm ngược" />
+
+        <!-- Bài 4: Todo -->
+        <activity
+            android:name=".bai4.TodoActivity"
+            android:exported="false"
+            android:label="Bài 4 - Todo App" />
+
+        <!-- Bài 5: Image Gallery -->
+        <activity
+            android:name=".bai5.ImageGalleryActivity"
+            android:exported="false"
+            android:label="Bài 5 - Xem hình ảnh" />
+
+        <!-- Bài 6: Weather -->
+        <activity
+            android:name=".bai6.WeatherActivity"
+            android:exported="false"
+            android:label="Bài 6 - API thời tiết" />
+
+        <!-- Bài 7: Navigation -->
+        <activity
+            android:name=".bai7.NavigationActivity"
+            android:exported="false"
+            android:label="Bài 7 - Navigation 3 Tab" />
+
+        <activity
+            android:name=".bai7.DetailActivity"
+            android:exported="false"
+            android:label="Chi tiết" />
+
+        <!-- Bài 8: Post List -->
+        <activity
+            android:name=".bai8.PostListActivity"
+            android:exported="false"
+            android:label="Bài 8 - Danh sách bài viết" />
+
+    </application>
+
+</manifest>
